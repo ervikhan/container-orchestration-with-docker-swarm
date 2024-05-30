@@ -31,7 +31,7 @@
     docker swarm join-token manager
     ```
     
-- Add new manager node (exec on new manager nide, not on old manager node!)
+- Add new manager node (exec on new manager node, not on old manager node!)
     
     ```bash
     docker swarm join --token SWMTKN-1-2qlcpg9xqzu467tth4xvx2l7d2xudn6luf8o9h29gbrgyk1exf-bi0xkm6m9orn9wew9ay0uizic 192.168.2.1:2377
