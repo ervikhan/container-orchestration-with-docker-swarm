@@ -2,11 +2,11 @@ Docker Stack is useful for creating and running one or multiple containers at on
 
 | Command | Description |
 | --- | --- |
-| https://docs.docker.com/engine/reference/commandline/stack_deploy/ | Deploy a new stack or update an existing stack |
-| https://docs.docker.com/engine/reference/commandline/stack_ls/ | List stacks |
-| https://docs.docker.com/engine/reference/commandline/stack_ps/ | List the tasks in the stack |
-| https://docs.docker.com/engine/reference/commandline/stack_rm/ | Remove one or more stacks |
-| https://docs.docker.com/engine/reference/commandline/stack_services/ | List the services in the stack |
+| docker stack deploy | Deploy a new stack or update an existing stack |
+| docker stack ls | List stacks |
+| docker stack ps | List the tasks in the stack |
+| docker stack rm | Remove one or more stacks |
+| docker stack services | List the services in the stack |
 - Install stack with compose file
 
 ```yaml
